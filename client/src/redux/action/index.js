@@ -4,7 +4,7 @@ import axios from "axios";
 
 export const newEmployee = (payload) => {
     return async(dispatch) => {
-        const res = await axios.post(`https://osha-production.up.railway.app/employee`, payload);
+        const res = await axios.post(`https://osha-new-york-production.up.railway.app/employee`, payload);
         const data = res.data
 
         return dispatch({
