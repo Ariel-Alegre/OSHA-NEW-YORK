@@ -35,7 +35,7 @@ export default function Employee() {
         </div>
       </div>
 
-     <div>
+     <div className="order">
       <div className="specifications">
         <h5>
           {t("employee.IDSST")}: {employee.idSST}
