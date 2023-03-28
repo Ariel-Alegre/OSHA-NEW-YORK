@@ -17,7 +17,7 @@ export const newEmployee = (payload) => {
 
 export const employeeDetail = (card) => {
     return async(dispatch) => {
-        const res = await axios.get(`https://osha-production.up.railway.app/employee/${card}`)
+        const res = await axios.get(`https://osha-new-york-production.up.railway.app/employee/${card}`)
         const data = res.data 
         return dispatch({
             type: "DETAIL_EMPLOYEE",
@@ -28,7 +28,7 @@ export const employeeDetail = (card) => {
 
 export const loginEmployee = (payload) => {
     return async(dispatch) => {
-        const res = await axios.post(`https://osha-production.up.railway.app/employee/login`, payload )
+        const res = await axios.post(`https://osha-new-york-production.up.railway.app/employee/login`, payload )
         const data = res.data 
         return dispatch({
             type: "LOGIN_EMPLOYEE",
@@ -39,7 +39,7 @@ export const loginEmployee = (payload) => {
 
 export const allEmployee = () => {
     return async(dispatch) => {
-        const res = await axios.get(`https://osha-production.up.railway.app/employee` )
+        const res = await axios.get(`https://osha-new-york-production.up.railway.app/employee` )
         const data = res.data 
         return dispatch({
             type: "ALL_EMPLOYEE",
@@ -50,7 +50,7 @@ export const allEmployee = () => {
 
 export const cardEmployee = (payload) => {
     return async(dispatch) => {
-        const res = await axios.post(`https://osha-production.up.railway.app/target`, payload);
+        const res = await axios.post(`https://osha-new-york-production.up.railway.app/target`, payload);
         const data = await res.data
 
         return dispatch({
@@ -63,7 +63,7 @@ export const cardEmployee = (payload) => {
 
 export const cardOrangeDetail = (target) => {
     return async(dispatch) => {
-        const res = await axios.get(`https://osha-production.up.railway.app/target/${target}`);
+        const res = await axios.get(`https://osha-new-york-production.up.railway.app/target/${target}`);
         const data = res.data
 
         return dispatch({
@@ -76,7 +76,7 @@ export const cardOrangeDetail = (target) => {
 
 export const allCardOrangeDetail = () => {
     return async(dispatch) => {
-        const res = await axios.get(`https://osha-production.up.railway.app/target`);
+        const res = await axios.get(`https://osha-new-york-production.up.railway.app/target`);
         const data = res.data
 
         return dispatch({
@@ -89,7 +89,7 @@ export const allCardOrangeDetail = () => {
 
 export const Avatars = (payload) => {
     return async(dispatch) => {
-        const res = await axios.post(`https://osha-production.up.railway.app/upload`, payload );
+        const res = await axios.post(`https://osha-new-york-production.up.railway.app/upload`, payload );
         const data = res.data
 
         return dispatch({
