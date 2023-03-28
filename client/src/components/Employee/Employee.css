@@ -26,13 +26,13 @@
   gap: 150px;
   margin-top: 50px;
   justify-content: center;
-  margin-right: 400px;
+  margin-right: 100px;
 }
 
 .height {
   text-align: center;
   margin-top: 40px;
-  margin-left: -600px;
+  margin-left: -450px;
 }
 
 .name {
@@ -220,14 +220,14 @@
 
   .specifications {
     display: grid;
-    width: 200px;
+    width: 300px;
     gap: 10px;
     margin-left: 40px;
   }
 
   .height {
-    margin-top: 0px;
-    margin-left: -30px;
+    margin-top: 9px;
+    margin-left: -59px;
   }
 
   .Issued_Expires {
@@ -237,8 +237,9 @@
   }
 
   .table {
-    margin: 0px;
-    width: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+   
   }
 
   .security {
@@ -246,7 +247,7 @@
   }
 
   .return_home {
-    margin-top: 50px;
+    margin-top: 150px;
   }
 
   .activate {

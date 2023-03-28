@@ -35,6 +35,7 @@ export default function Employee() {
         </div>
       </div>
 
+     <div>
       <div className="specifications">
         <h5>
           {t("employee.IDSST")}: {employee.idSST}
@@ -42,10 +43,11 @@ export default function Employee() {
         <h5>
           {t("employee.eye")}: {employee.eyeColor}
         </h5>
+      </div>
         <h5 className="height">
           {t("employee.height")}: {employee.height}
         </h5>
-      </div>
+  </div>
       <div className="Issued_Expires">
         <h5 className="security">
           <strong>{t("employee.security")}</strong>
@@ -83,7 +85,7 @@ export default function Employee() {
                  
             </td>
             <td className="activate_osha">
-              <strong className="activate"> Activate </strong>|{" "}
+              <strong className="activate"> {t("employee.Activate")} </strong>|{" "}
               {employee.certification}
             </td>
             <td classname="osha">{employee.issuedBy}</td>
@@ -97,7 +99,7 @@ export default function Employee() {
                  
             </td>
             <td className="activate_osha">
-              <strong className="activate"> Activate </strong>|{" "}
+              <strong className="activate"> {t("employee.Activate")} </strong>|{" "}
               {employee.ctf2}
             </td>
             <td classname="osha">{employee.iBy2}</td>
@@ -111,7 +113,7 @@ export default function Employee() {
                  
             </td>
             <td className="activate_osha">
-              <strong className="activate"> Activate </strong>|{" "}
+              <strong className="activate">  {t("employee.Activate")}</strong>|{" "}
               {employee.ctf3}
             </td>
             <td classname="osha">{employee.iBy3}</td>

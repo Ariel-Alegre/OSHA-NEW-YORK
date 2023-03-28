@@ -55,7 +55,9 @@
          "Verified by": "Verificato da",
          "Issued on": "Rilasciato il",
          "Behavior": "Comportamento",
-          "home": "Effettua una nuova ricerca / Torna alla pagina principale"
+         "Activate": "Attivo",
+        
+         "home": "Effettua una nuova ricerca / Torna alla pagina principale"
     },
 
     "target-detail": {
