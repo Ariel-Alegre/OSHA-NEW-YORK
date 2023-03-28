@@ -1,0 +1,69 @@
+{
+    "card": {
+        "title": "Vérifier la carte OSHA",
+        "subTitle": "Pour vérifier qu'une carte d'extension OSHA est valide, entrez le nom complet et le numéro de carte imprimés sur la carte qui vous a été délivrée. Cliquez ensuite sur l'icône Rechercher.",
+         "input": {
+            "name": "Nom complet",
+            "number":"Écrivez le numéro de la carte..."
+            
+        }
+    },
+
+    "target": {
+        "title": "Vérifiez la carte OSHA 30 heures",
+        "input": {
+            "name": "Nom complet",
+            "number": "Écrivez le numéro de la carte..."
+        }
+    },
+
+    "navbar": {
+        "title": "FORMATION CONNEXION",
+        "search": "Nouvelle recherche"
+      },
+
+      "footer":{
+       "Directory": " Annuaire des Agences de la Ville",
+       "City": "Magasin de la ville",
+       "Recidents":"Boîte à outils pour les résidents",
+       "City Employees": "Employés municipaux",
+       "NYC Mobile Apps": "Applications mobiles de New York",
+       "Contact NYC Government": "Contacter le gouvernement de New York",
+       "Stay Connected": "Rester connecté",
+       "Notify NYC": "Avertir NYC",
+       "Maps": "Plans",
+       "Feedback": "Retour",
+       "copy": {
+        "copiRight": {
+            "reserved": "© Ville de New York. 2023, Tous droits réservés,",
+            "reser": "NYC est une marque commerciale et une marque de service de la ville de New York."
+        }
+       }
+    },
+    "employee": {
+        "IDSST": "ID de SST",
+         "eye": "Couleur des yeux",
+         "height": "Hauteur",
+         "security": "Carte SST de sécurité du site",
+         "issued":"Publié",
+         "Approved": "Approuvé par : Skybridge Restoration",
+         "Expires": "Expire",
+         "HISTORY": "HISTORIQUE DE LA FORMATION",      
+         "Test": "Test",
+         "certification": "Certificat",
+         "Issued by": "Délivré par",
+         "Verified by": "Vérifié par",
+         "Issued on": "Publié le",
+         "Behavior": "Comportement",
+          "home": "Faire une nouvelle recherche / Retour à la page principale"
+    },
+
+    "target-detail": {
+        "title": "Carte OSHA 30 heures",
+         "status": "Statut",
+         "number": "Numéro de carte",
+         "date": "Rendez-vous | Heure",
+         "home": "Retour à la page d'accueil"
+    }
+
+}

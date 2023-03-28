@@ -1,0 +1,54 @@
+.navBar {
+  background-color: #002878;
+  color: white;
+  position: -webkit-sticky;
+  height: 100px;
+}
+.container-navbar {
+    margin-top: -1px;
+}
+.brand {
+
+}
+
+.brand img {
+  height: 60px;
+}
+
+#nyc {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: -4px;
+}
+
+.training-connect {
+  margin-right: 110px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 50px;
+  
+}
+.btnContainer a {
+  background: transparent;
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+
+.btnContainer a:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 800px) {
+
+.btnContainer {
+  margin-top: -20px;
+}
+  .brand {
+    margin-left: -5px;
+  }
+  .training-connect {
+    margin-left: 40px;
+  }
+  .brand img {
+    height: 40px;
+  }
+}

@@ -1,0 +1,42 @@
+.container_Share {
+  color: black;
+  font-size: 26px;
+}
+
+.share {
+  border: none;
+}
+
+.Toggleicon {
+  width: 50px;
+  background: transparent !important;
+  border: none;
+}
+
+.icon {
+  color: white;
+  font-size: 25px;
+  height: 40px;
+}
+
+.icon:hover {
+  color: rgb(253, 237, 237);
+}
+
+.iconFacebook {
+  border: none;
+  border-radius: 30px;
+  width: 25px;
+}
+
+.iconTwitter {
+  border: none;
+  border-radius: 30px;
+  width: 25px;
+}
+
+.iconPin {
+  border: none;
+  border-radius: 30px;
+  width: 25px;
+}

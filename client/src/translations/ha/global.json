@@ -1,0 +1,69 @@
+{
+    "card": {
+        "title": "Tcheke Kat OSHA",
+        "subTitle": "Pou verifye si yon kat ekstansyon OSHA valab, antre non konplè ak nimewo kat ki enprime sou kat yo te ba w la. Apre sa, klike sou ikòn Search la.",
+         "input": {
+            "name": "Non konplè",
+            "number":"Ekri nimewo kat..."
+            
+        }
+    },
+
+    "target": {
+        "title": "Tcheke OSHA Card 30 Hours",
+        "input": {
+            "name": "Non konplè",
+            "number": "Ekri nimewo kat..."
+        }
+    },
+
+    "navbar": {
+        "title": "FÒMASYON KONEKTE",
+        "search": "Nouvo rechèch"
+      },
+
+      "footer":{
+       "Directory": "Anyè ajans vil yo",
+       "City": "Magazen vil la",
+       "Recidents":"Recidents Toolkit",
+       "City Employees": "Anplwaye vil yo",
+       "NYC Mobile Apps": "NYC Mobile Apps",
+       "Contact NYC Government": "Kontakte Gouvènman Vil Nouyòk",
+       "Stay Connected": "Notifye NYC",
+       "Notify NYC": "Notifye NYC",
+       "Maps": "Kat",
+       "Feedback": "Feedback",
+       "copy": {
+        "copiRight": {
+            "reserved": "© Vil Nouyòk. 2023, tout dwa rezève,",
+            "reser": "NYC se yon mak komèsyal ak yon mak sèvis Vil New York."
+        }
+       }
+    },
+    "employee": {
+        "IDSST": "ID SST",
+         "eye": "Koulè je",
+         "height": "Wotè",
+         "security": "Kat Sekirite Sit SST",
+         "issued":"bay",
+         "Approved": "Apwouve pa: Skybridge Restoration",
+         "Expires": "ekspire",
+         "HISTORY": "ISTWA FÒMASYON",      
+         "Test": "Tès",
+         "certification": "Sètifikasyon",
+         "Issued by": "Pibliye pa",
+         "Verified by": "verifye pa",
+         "Issued on": "Pibliye sou",
+         "Behavior": "Konpòtman",
+          "home": "Fè yon nouvo rechèch / Retounen nan paj prensipal la"
+    },
+
+    "target-detail": {
+        "title": "Kat 30 èdtan OSHA",
+         "status": "Estati",
+         "number": "nimewo kat",
+         "date": "Dat | èdtan",
+         "home": "Retounen nan paj prensipal la"
+    }
+
+}

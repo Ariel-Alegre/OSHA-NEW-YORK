@@ -1,0 +1,259 @@
+.employeeContainer {
+  background: white;
+  height: 85em;
+  width: auto;
+}
+
+.image_name {
+  justify-content: center;
+  display: grid;
+  gap: 10px;
+}
+
+.image_name img {
+  border-radius: 150px;
+  height: 180px;
+  width: 180px;
+  max-width: 180px;
+  max-width: 180px;
+  margin-top: 40px;
+  background: white;
+  box-shadow: 0px 0px 10px black;
+}
+
+.specifications {
+  display: flex;
+  gap: 150px;
+  margin-top: 50px;
+  justify-content: center;
+  margin-right: 400px;
+}
+
+.height {
+  text-align: center;
+  margin-top: 40px;
+  margin-left: -600px;
+}
+
+.name {
+  text-align: center;
+}
+
+.Issued_Expires {
+  width: 1050px;
+  height: 300px;
+  background-color: #1e64ac;
+  display: grid;
+  justify-content: center;
+  color: white;
+  margin-top: 40px;
+  gap: 0px;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+.security {
+  margin-top: 40px;
+}
+
+.training {
+  display: grid;
+  text-align: center;
+}
+
+.Trining_History {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-left: 250px;
+}
+.Trining_History1 {
+  display: flex;
+  gap: 60px;
+  margin-left: 350px;
+  position: absolute;
+}
+
+.Test_Certification {
+  display: flex;
+  gap: 60px;
+  margin-right: 870px;
+}
+
+.img_certification {
+  max-height: 60px;
+  max-width: 60px;
+}
+
+.activate_osha {
+  display: flex;
+  gap: 5px;
+}
+
+.activate {
+  background-color: rgb(3, 213, 3);
+  color: white;
+}
+
+.bg {
+  background: rgba(223, 223, 223, 0.422);
+}
+
+.table {
+  width: 65em;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+}
+
+.return_home {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.return_home a {
+  text-decoration: none;
+  color: black;
+}
+
+.return_home a:hover {
+  opacity: 0.7;
+}
+
+.btnExit {
+  width: 50px;
+  border: none;
+  background: transparent;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.btnExit:hover {
+  opacity: 0.7;
+}
+
+.boton-modal label {
+  cursor: pointer;
+  transform: all 300ms ease;
+}
+
+.boton-modal label:hover {
+  opacity: 0.7;
+}
+
+#btn-modal {
+  display: none;
+}
+
+#btn-modal ~ {
+  display: none;
+}
+.container-modal {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(23, 23, 23, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+.container-modal a {
+  color: white;
+}
+
+.container-modal a:hover {
+  opacity: 0.8;
+}
+
+.content-modal .btn-cerrar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content-modal .btn-cerrar label {
+  color: #fff;
+}
+
+.content-modal .btn-cerrar label:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.img-modal {
+  width: 900px;
+  height: 500px;
+  margin-top: -17em;
+  margin-left: 21em;
+}
+
+.content-option {
+  display: flex;
+  gap: 30px;
+  font-size: 30px;
+  margin-left: 43em;
+  margin-top: -19em;
+}
+
+.bg-option {
+  background-color: rgba(0, 0, 0, 0.044);
+  width: 100em;
+
+}
+
+.icon-download {
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .image_name {
+    justify-content: center;
+    display: grid;
+  }
+
+  .specifications {
+    display: grid;
+    width: 200px;
+    gap: 10px;
+    margin-left: 40px;
+  }
+
+  .height {
+    margin-top: 0px;
+    margin-left: -30px;
+  }
+
+  .Issued_Expires {
+    width: 370px;
+    margin-left: 10px;
+    gap: 5px;
+  }
+
+  .table {
+    margin: 0px;
+    width: 0px;
+  }
+
+  .security {
+    margin-top: 15px;
+  }
+
+  .return_home {
+    margin-top: 50px;
+  }
+
+  .activate {
+    height: 25px;
+    width: 65px;
+  }
+  .activate_osha {
+    display: grid;
+  }
+}

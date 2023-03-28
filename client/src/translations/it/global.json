@@ -1,0 +1,69 @@
+{
+    "card": {
+        "title": "Controlla la carta OSHA",
+        "subTitle": "Per verificare che una tessera di estensione OSHA sia valida, inserisci il nome completo e il numero della tessera stampati sulla tessera che ti è stata rilasciata. Quindi fare clic sull'icona Cerca.",
+         "input": {
+            "name": "Nome completo",
+            "number":"Scrivi il numero della carta..."
+            
+        }
+    },
+
+    "target": {
+        "title": "Controlla OSHA Card 30 ore",
+        "input": {
+            "name": "Nome completo",
+            "number": "Scrivi il numero della carta..."
+        }
+    },
+
+    "navbar": {
+        "title": "FORMAZIONE CONNETTI",
+        "search": "Nuova ricerca"
+      },
+
+      "footer":{
+       "Directory": " Elenco delle agenzie cittadine",
+       "City": "Negozio cittadino",
+       "Recidents":"Toolkit dei residenti",
+       "City Employees": "Dipendenti Comunali",
+       "NYC Mobile Apps": "App mobili di New York",
+       "Contact NYC Government": "Contatta il governo di New York",
+       "Stay Connected": "Rimani connesso",
+       "Notify NYC": "Avvisare New York",
+       "Maps": "Mappe",
+       "Feedback": "Feedback",
+       "copy": {
+        "copiRight": {
+            "reserved": "© Città di New York. 2023, Tutti i diritti riservati,",
+            "reser": "NYC è un marchio commerciale e un marchio di servizio della città di New York."
+        }
+       }
+    },
+    "employee": {
+        "IDSST": "ID di SST",
+         "eye": "Colore degli occhi",
+         "height": "Altezza",
+         "security": "Scheda SST di sicurezza del sito",
+         "issued":"Rilasciato",
+         "Approved": "Approvato da: Restauro Skybridge",
+         "Expires": "Scade",
+         "HISTORY": "STORIA DI FORMAZIONE",      
+         "Test": "Test",
+         "certification": "Certificazione",
+         "Issued by": "Rilasciato da",
+         "Verified by": "Verificato da",
+         "Issued on": "Rilasciato il",
+         "Behavior": "Comportamento",
+          "home": "Effettua una nuova ricerca / Torna alla pagina principale"
+    },
+
+    "target-detail": {
+        "title": "Tessera OSHA da 30 ore",
+         "status": "Stato",
+         "number": "Numero di carta",
+         "date": "Data | Ora",
+         "home": "Torna alla pagina principale"
+    }
+
+}

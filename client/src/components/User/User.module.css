@@ -1,0 +1,132 @@
+.formContainer {
+  margin-top: 60px;
+  width: 450px;
+  height: auto;
+  box-shadow: 0px 0px 0px 1px white;
+  background-color: white;
+  border-radius: 12px;
+  margin-bottom: 100px;
+  margin-left: 400px;
+}
+.formContainer form {
+  justify-content: center;
+  display: grid;
+  margin-left: 10px;
+}
+.formContainer form input {
+  margin-top: 10px;
+  height: 45px;
+  width: 22em;
+  margin-left: 40px;
+}
+
+.formContainer p{
+text-align: center;
+}
+
+.formContainer h5 {
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn_employee {
+  width: 40px;
+  margin-left: 22em;
+  margin-top: -85px;
+  height: 45px;
+  border: none;
+  background-color: rgb(152, 152, 152);
+  border-radius: 5px;
+
+}
+
+.btn-employee:hover {
+  opacity: 0.7;
+} 
+
+.inputContainer {
+  margin-bottom: 40px;
+}
+
+.inputCard {
+  background-color: rgb(240, 240, 240);
+  border: 0;
+  outline: none;
+}
+
+.formContainer form input::placeholder {
+  font-size: 14px;
+  color: rgb(130, 130, 130);
+}
+
+@media screen and (max-width: 360px)  {  
+  .formContainer {
+     display: grid;
+     width: 402px;
+     margin-top: 50px;
+     margin-left: 5px;
+
+  }
+
+  .formContainer form input {
+    outline: none;
+    width: 260px;
+    margin-left: 20px;
+  }
+  .btn_employee  {
+    margin-left: 296px;
+    margin-top:-85px;
+    border-radius: 5px;
+    height: 45px;
+  }
+  .inputContainer {
+    justify-content: center;
+    display: grid;
+  }
+  .description {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 800px)  {  
+  .formContainer {
+     display: grid;
+     width: 402px;
+     margin-top: 50px;
+     margin-left: 5px;
+
+  }
+
+  .formContainer form input {
+    outline: none;
+    width: 260px;
+    margin-left: 20px;
+  }
+  .btn_employee  {
+    margin-left: 296px;
+    margin-top:-85px;
+    border-radius: 5px;
+    height: 45px;
+  }
+  .inputContainer {
+    justify-content: center;
+    display: grid;
+  }
+  .description {
+    margin-left: 20px;
+  }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+.Register-Container {
+  background: white;
+  height: 75em;
+}
+
+.Register-Container form {
+  display: grid;
+  margin-left: 40px;
+}
+
+.Input-Container {
+  box-shadow: 0px 0px 4px;
+  width: 870px;
+  display: grid;
+  margin-top: 40px;
+  grid-template-columns: repeat(auto-fit, 400px);
+
+  margin-left: 100px;
+  justify-content: center;
+}
+
+.Input-Container input {
+    margin-left: 100px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.Input-Container p {
+text-align: center;
+margin-top: 10px;
+margin-left: 100px;
+}
+
+.button-Register {
+    width: 300px;
+     height: 40px;
+    margin-left: 5em;
+    margin-top: 45px;
+}
+
+.button-Register:hover {
+    opacity: 0.7;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .Register-Container {
+    background: white;
+    height: 180em;
+    margin-bottom: 70em;
+  }
+  
+ 
+  .Input-Container{
+  display: grid;
+   margin-left: 80px;
+   width: 10px;
+   box-shadow: none;
+  }
+}
+
+
+
+

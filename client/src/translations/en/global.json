@@ -1,0 +1,69 @@
+{
+    "card": {
+        "title": "Check OSHA Card",
+        "subTitle": "To verify that an OSHA extension card is valid, enter the full name and card number printed on the card you were issued. Then click on the Search icon.",
+         "input": {
+            "name": "Complete Name",
+            "number":"Write card number..."
+            
+        }
+    },
+
+    "target": {
+        "title": "Check OSHA Card 30 Hours",
+        "input": {
+            "name": "Complete name",
+            "number": "Write card number..."
+        }
+    },
+
+    "navbar": {
+        "title": "TRAINING CONNECT",
+        "search": "New search"
+      },
+
+      "footer":{
+       "Directory": " Directory of City Agencies",
+       "City": "City Store",
+       "Recidents":"Recidents Toolkit",
+       "City Employees": "City Employees",
+       "NYC Mobile Apps": "NYC Mobile Apps",
+       "Contact NYC Government": "Contact NYC Government",
+       "Stay Connected": "Stay Connected",
+       "Notify NYC": "Notify NYC",
+       "Maps": "Maps",
+       "Feedback": "Feedback",
+       "copy": {
+        "copiRight": {
+            "reserved": "© City of New York. 2023, All Rights Reserved,",
+            "reser": "NYC is a trademark and service mark of the City of New York."
+        }
+       }
+    },
+    "employee": {
+        "IDSST": "ID de SST",
+         "eye": "Eye Color",
+         "height": "Height",
+         "security": "Site Security SST Card",
+         "issued":"Issued",
+         "Approved": "Approved by: Skybridge Restoration",
+         "Expires": "Expires",
+         "HISTORY": "TRAINING HISTORY",      
+         "Test": "Test",
+         "certification": "Certification",
+         "Issued by": "Issued by",
+         "Verified by": "Verified by",
+         "Issued on": "Issued on",
+         "Behavior": "Behavior",
+          "home": "Make a new search / Return to the main page"
+    },
+
+    "target-detail": {
+        "title": "OSHA 30 Hour Card",
+         "status": "Status",
+         "number": "Card Number",
+         "date": "Date | Hour",
+         "home": "Back to main page"
+    }
+
+}

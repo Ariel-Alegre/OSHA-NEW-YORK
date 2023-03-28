@@ -1,0 +1,72 @@
+.optionContainer2 {
+    display: flex;
+    margin-left: 53em;
+    margin-top: -18em;
+    gap: 20px;
+    position: fixed;
+}
+
+
+.test2 {
+  width: 50px;
+  cursor: pointer;
+}
+
+
+
+.testModal2 {
+    margin-top: -18rem;
+ position: fixed;
+ width: 750px;
+
+}
+
+.closeContainer2 {
+  
+}
+
+
+.btnClosed2 {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 28px;
+    height: 45px;
+}
+
+.btnClosed2:hover {
+    color: white;
+}
+
+.download2 {
+    margin-top: 8px;
+
+}
+
+.download2 a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.download2 a:hover {
+color: white;
+ }
+
+
+ @media screen and (max-width: 800px) {
+    
+    .testModal2 {
+        position: fixed;
+        margin-top: -12rem;
+        width: 372px;
+      }
+
+      .optionContainer2 {
+        display: flex;
+       margin-left: 130px;
+       margin-top: -360px;
+       position: fixed;
+
+      }
+}

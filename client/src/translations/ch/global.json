@@ -1,0 +1,69 @@
+{
+    "card": {
+        "title": "检查 OSHA 卡",
+        "subTitle": "要验证 OSHA 延期卡是否有效，请输入印在您所发卡上的全名和卡号。然后单击“搜索”图标。",
+         "input": {
+            "name": "全名",
+            "number":"写卡号..."
+            
+        }
+    },
+
+    "target": {
+        "title": "检查 OSHA 卡 30 小时",
+        "input": {
+            "name": "全名",
+            "number": "写卡号..."
+        }
+    },
+
+    "navbar": {
+        "title": "训练连接",
+        "search": "新搜索"
+      },
+
+      "footer":{
+       "Directory": " 城市机构名录",
+       "City": "城市商店",
+       "Recidents":"居民工具包",
+       "City Employees": "城市雇员",
+       "NYC Mobile Apps": "纽约市移动应用程序",
+       "Contact NYC Government": "联系纽约市政府",
+       "Stay Connected": "保持联系",
+       "Notify NYC": "通知纽约市",
+       "Maps": "地图",
+       "Feedback": "反馈",
+       "copy": {
+        "copiRight": {
+            "reserved": "© 纽约市。 2023，保留所有权利，",
+            "reser": "NYC 是纽约市的商标和服务标志。"
+        }
+       }
+    },
+    "employee": {
+        "IDSST": "ID de SST",
+         "eye": "眼睛的颜色",
+         "height": "高度",
+         "security": "现场安全 SST 卡",
+         "issued":"发布",
+         "Approved": "批准人：Skybridge Restoration",
+         "Expires": "过期",
+         "HISTORY": "培训历史",      
+         "Test": "测试",
+         "certification": "认证",
+         "Issued by": "由...发出",
+         "Verified by": "经核实",
+         "Issued on": "发布",
+         "Behavior": "行为",
+          "home": "进行新的搜索 / 返回主页"
+    },
+
+    "target-detail": {
+        "title": "OSHA 30 小时卡",
+         "status": "地位",
+         "number": "卡号",
+         "date": "日期 |小时",
+         "home": "返回主页"
+    }
+
+}

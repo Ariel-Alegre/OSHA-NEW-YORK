@@ -1,0 +1,71 @@
+{
+    "card": {
+        "title": "Verifique la tarjeta OSHA",
+        "subTitle": "Para verificar que una tarjeta de extensión de OSHA es válida, ingrese el nombre completo y el número de tarjeta impresos en la tarjeta que se le emitió. Luego haga clic en el icono Buscar.",
+         "input": {
+            "name": "Nombre completo",
+            "number":"Escribe el número de tarjeta..."
+            
+        }
+    }, 
+
+    "target": {
+        "title": "Verificar Tarjeta OSHA 30 Horas",
+        "input": {
+            "name": "Nombre completo",
+            "number": "Escribe el numero de la tarjeta..."
+        }
+    },
+
+  "navbar": {
+    "title": "CONEXIÓN DE ENTRENAMIENTO",
+    "search": "Nueva Busqueda"
+  },
+
+  "footer":{
+    "Directory": "Directorio de Agencias de la Ciudad",
+    "City": "Tienda de la ciudad",
+    "Recidents":"Kit de herrmientas para residentes",
+    "City Employees": "Empleados de la ciudad",
+    "NYC Mobile Apps": "Aplicaciones de móviles de la ciudad de Nueva York",
+    "Contact NYC Government":"Comuníquese con el gobierno de la ciudad de Nueva York",
+    "Stay Connected": "Mantente conectado",
+    "Notify NYC": "Notificar a la ciudad de Nueva York",
+    "Maps": "Mapas",
+    "Feedback": "Comentarios",
+    "copy": {
+        "copiRight": {
+            "reserved": "© Ciudad de Nueva York. 2023, Todos los derechos reservados,",
+            "reser": "NYC es una marca comercial y de servicio de la Ciudad de Nueva York."
+        }
+       }
+},
+  "employee": {
+    "IDSST": "ID de SST",
+     "eye": "Color de ojos",
+     "height": "Altura",
+     "security": "Tarjeta SST de seguridad del sitio",
+     "Approved": "Aprobado por: Skybridge Restoration",
+     "issued":"Emitido",
+     "Expires": "Caduca",
+     "HISTORY": "HISTORIAL DE ENTRENAMIENTO",      
+     "Test": "Prueba",
+     "certification": "Certificación",
+     "Issued by": "Expedido por",
+     "Verified by": "Verificada por",
+     "Issued on": "emitido el",
+     "Behavior": "Comportamiento",
+     "home": "Hacer una nueva búsqueda / Volver a la página principal"
+},
+
+"target-detail": {
+     "title": "Tarjeta OSHA de 30 horas",
+     "status": "Estado",
+     "number": "Número de tarjeta",
+     "date": "Fecha | Hora",
+     "home": "volver a la página principal"
+}
+
+
+
+}

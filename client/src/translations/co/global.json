@@ -1,0 +1,69 @@
+{
+    "card": {
+        "title": "OSHA 카드 확인",
+        "subTitle": "OSHA 연장 카드가 유효한지 확인하려면 발급받은 카드에 인쇄된 전체 이름과 카드 번호를 입력하십시오. 그런 다음 검색 아이콘을 클릭합니다.",
+         "input": {
+            "name": "완전한 이름",
+            "number":"카드번호 쓰기..."
+            
+        }
+    },
+
+    "target": {
+        "title": "OSHA 카드 확인 30시간",
+        "input": {
+            "name": "완전한 이름",
+            "number": "카드번호 쓰기..."
+        }
+    },
+
+    "navbar": {
+        "title": "교육 연결",
+        "search": "새로운 검색"
+      },
+
+      "footer":{
+       "Directory": " 시 기관 목록",
+       "City": "시티 스토어",
+       "Recidents":"주민 툴킷",
+       "City Employees": "시 직원",
+       "NYC Mobile Apps": "NYC 모바일 앱",
+       "Contact NYC Government": "NYC 정부에 문의",
+       "Stay Connected": "대기 중",
+       "Notify NYC": "NYC에 알리기",
+       "Maps": "지도",
+       "Feedback": "피드백",
+       "copy": {
+        "copiRight": {
+            "reserved": "© 뉴욕시. 2023, 판권 소유,",
+            "reser": "NYC는 뉴욕시의 상표 및 서비스 마크입니다."
+        }
+       }
+    },
+    "employee": {
+        "IDSST": "아이디 드 SST",
+         "eye": "눈 색깔",
+         "height": "키",
+         "security": "사이트 보안 SST 카드",
+         "issued":"발행 된",
+         "Approved": "승인자: Skybridge Restoration",
+         "Expires": "만료",
+         "HISTORY": "교육 이력",      
+         "Test": "시험",
+         "certification": "인증",
+         "Issued by": "발급자",
+         "Verified by": "에 의해 인증받은",
+         "Issued on": "발행 날짜",
+         "Behavior": "행동",
+          "home": "새로 검색하기 / 메인 페이지로 돌아가기"
+    },
+
+    "target-detail": {
+        "title": "OSHA 30시간 카드",
+         "status": "상태",
+         "number": "카드 번호",
+         "date": "날짜 | 시간",
+         "home": "메인 페이지로 돌아가기"
+    }
+
+}

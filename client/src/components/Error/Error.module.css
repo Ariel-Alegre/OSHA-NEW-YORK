@@ -1,0 +1,27 @@
+.errorContainer {
+  background: white;
+  height: 25em;
+}
+.margin {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 120px;
+ 
+
+}
+
+
+
+.margin a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 800px) {
+  .margin {
+    width: 350px;
+    margin-left: 30px;
+  }
+}

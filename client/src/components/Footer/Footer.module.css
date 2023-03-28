@@ -1,0 +1,133 @@
+.directions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+  text-decoration: none;
+  color: white;
+  margin-bottom: 40px;
+  gap: 250px;
+  margin-top: 50px;
+}
+
+.footer {
+  height: 650px;
+}
+.container {
+  margin-top: -100px;
+}
+
+.directions a {
+  text-decoration: none;
+  color: white;
+}
+
+.directions a:hover {
+  opacity: 0.8;
+}
+
+.direction-right {
+  margin-left: 350px;
+}
+
+hr {
+  position: relative;
+  top: 20px;
+  border: none;
+  height: 2px;
+  background: white;
+  margin-bottom: 50px;
+}
+
+.direction-rigth a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.direction-rigth a:hover {
+  opacity: 0.8;
+}
+
+.brand img {
+  height: 35px;
+  margin-top: 8px;
+}
+
+.reserved {
+  color: white;
+  width: 10px;
+  margin-top: -40px;
+  font-size: 14px;
+  margin-left: 400px;
+  margin-top: -120px;
+}
+
+.img {
+  height: 50px;
+  margin-bottom: 80px;
+  margin-top: 20px;
+}
+.lenguaje {
+  display: flex;
+  color: white;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.lenguaje button {
+  background: transparent;
+  color: white;
+  border: none;
+}
+
+@media screen and (max-width: 800px) {
+  .directions {
+    display: grid;
+    gap: 10px;
+ 
+  }
+  
+  .h5 {
+ font-size: 14px;
+ margin-left: 20px;
+  }
+
+  .footer {
+    height: 55em;
+  }
+
+  .lenguaje button h5{
+   font-size: 15px;
+  }
+
+  .container {
+    margin-top: -80px;
+
+    
+  }
+
+  .direction_right {
+    display: grid;
+    margin-left: 0px;
+  }
+
+
+
+  .lenguaje {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+    gap: 10px;
+    margin-left: -10px;
+  }
+
+  hr {
+    width: 350px;
+  }
+  .reserved {
+    margin-left: 5px;
+    margin-top: -50px;
+  }
+
+  .reserved h5 {
+    font-size: 12.5px;
+  }
+}

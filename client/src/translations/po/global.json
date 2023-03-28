@@ -1,0 +1,69 @@
+{
+    "card": {
+        "title": "Sprawdź kartę OSHA",
+        "subTitle": "Aby sprawdzić, czy karta rozszerzeń OSHA jest ważna, wprowadź pełne imię i nazwisko oraz numer karty wydrukowane na wydanej karcie. Następnie kliknij ikonę wyszukiwania.",
+         "input": {
+            "name": "Pełne imię",
+            "number":"Write card number..."
+            
+        }
+    },
+
+    "target": {
+        "title": "Sprawdź kartę OSHA 30 godzin",
+        "input": {
+            "name": "Pełne imię",
+            "number": "Wpisz numer karty..."
+        }
+    },
+
+    "navbar": {
+        "title": "POŁĄCZENIE TRENINGOWE",
+        "search": "Nowe wyszukiwanie"
+      },
+
+      "footer":{
+       "Directory": " Katalog agencji miejskich",
+       "City": "Sklep miejski",
+       "Recidents":"Zestaw narzędzi dla rezydentów",
+       "City Employees": "Pracownicy miasta",
+       "NYC Mobile Apps": "Aplikacje mobilne NYC",
+       "Contact NYC Government": "Skontaktuj się z rządem Nowego Jorku",
+       "Stay Connected": "Pozostawanie w kontakcie",
+       "Notify NYC": "Powiadom NYC",
+       "Maps": "Mapy",
+       "Feedback": "Informacja zwrotna",
+       "copy": {
+        "copiRight": {
+            "reserved": "© Miasto Nowy Jork. 2023, Wszelkie prawa zastrzeżone,",
+            "reser": "NYC jest znakiem towarowym i usługowym miasta Nowy Jork."
+        }
+       }
+    },
+    "employee": {
+        "IDSST": "Identyfikator SST",
+         "eye": "Kolor oczu",
+         "height": "Wysokość",
+         "security": "Karta SST bezpieczeństwa witryny",
+         "issued":"Wydany",
+         "Approved": "Zatwierdzone przez: Renowacja Skybridge",
+         "Expires": "Wygasa",
+         "HISTORY": "HISTORIA TRENINGU",      
+         "Test": "Test",
+         "certification": "Orzecznictwo",
+         "Issued by": "Wydane przez",
+         "Verified by": "Zweryfikowano przez",
+         "Issued on": "Wydane w",
+         "Behavior": "Zachowanie",
+          "home": "Przeprowadź nowe wyszukiwanie / Wróć do strony głównej"
+    },
+
+    "target-detail": {
+        "title": "30-godzinna karta OSHA",
+         "status": "Status",
+         "number": "Numer karty",
+         "date": "Data | Godzina",
+         "home": "Powrót do strony głównej"
+    }
+
+}
