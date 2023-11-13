@@ -53,7 +53,7 @@
 @media screen and (max-width: 800px) {
  
   .Register_Container {
-    margin-top: -120em;
+    margin-top: -105em;
   }
 
   .Input_Container{
@@ -62,5 +62,6 @@
     width: 10px;
     box-shadow: none;
     margin-top: -150px ;
+    justify-content: center;
    }
  }
