@@ -39,7 +39,13 @@ module.exports = {
       test3: {
         type: Sequelize.STRING
       },
+      test4: {
+        type: Sequelize.STRING
+      },
       ctf3: {
+        type: Sequelize.STRING
+      },
+      ctf4: {
         type: Sequelize.STRING
       },
       issuedBy: {
@@ -51,6 +57,9 @@ module.exports = {
       iBy3: {
         type: Sequelize.STRING
       },
+      iBy4: {
+        type: Sequelize.STRING
+      },
       verifiedBy: {
         type: Sequelize.STRING
       },
@@ -60,6 +69,9 @@ module.exports = {
       vrf3: {
         type: Sequelize.STRING
       },
+      vrf4: {
+        type: Sequelize.STRING
+      },
       issuedOn: {
         type: Sequelize.STRING
       },
@@ -67,6 +79,9 @@ module.exports = {
         type: Sequelize.STRING
       },
       iuOn3: {
+        type: Sequelize.STRING
+      },
+      iuOn4: {
         type: Sequelize.STRING
       },
       certification: {
@@ -80,14 +95,20 @@ module.exports = {
       ctf3: {
         type: Sequelize.STRING
       },
+      ctf4: {
+        type: Sequelize.STRING
+      },
+
 
 
       createdAt: {
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.fn('NOW'),
       },
       updatedAt: {
-        type: Sequelize.DATE
-      }
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.fn('NOW'),
+      },
     });
   },
   async down(queryInterface, Sequelize) {
