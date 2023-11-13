@@ -98,8 +98,118 @@ export const Avatars = (payload) => {
 
         })
     }
+}; 
+
+
+
+
+
+
+
+
+
+
+/* export const newEmployee = (payload) => {
+    return async(dispatch) => {
+        const res = await axios.post(`http://localhost:8000/employee`, payload);
+        const data = res.data
+
+        return dispatch({
+            type: "CREATE_EMPLOYEE",
+            payload: data
+
+        })
+    }
+};
+
+export const employeeDetail = (card) => {
+    return async(dispatch) => {
+        const res = await axios.get(`http://localhost:8000/employee/${card}`)
+        const data = res.data 
+        return dispatch({
+            type: "DETAIL_EMPLOYEE",
+            payload: data
+        })
+    }
+};
+
+export const loginEmployee = (payload) => {
+    return async(dispatch) => {
+        const res = await axios.post(`http://localhost:8000/employee/login`, payload )
+        const data = res.data 
+        return dispatch({
+            type: "LOGIN_EMPLOYEE",
+            payload:  console.log(data)
+        })
+    }
+};
+
+export const allEmployee = () => {
+    return async(dispatch) => {
+        const res = await axios.get(`http://localhost:8000/employee` )
+        const data = res.data 
+        return dispatch({
+            type: "ALL_EMPLOYEE",
+            payload: data
+        })
+    }
+};
+
+export const cardEmployee = (payload) => {
+    return async(dispatch) => {
+        const res = await axios.post(`http://localhost:8000/target`, payload);
+        const data = await res.data
+
+        return dispatch({
+            type: "CREATE_TARGET",
+            payload: data
+
+        })
+    }
+};
+
+export const cardOrangeDetail = (target) => {
+    return async(dispatch) => {
+        const res = await axios.get(`http://localhost:8000/target/${target}`);
+        const data = res.data
+
+        return dispatch({
+            type: "DETAIL_CARD_ORANGE",
+            payload: data
+
+        })
+    }
+};
+
+export const allCardOrangeDetail = () => {
+    return async(dispatch) => {
+        const res = await axios.get(`http://localhost:8000/target`);
+        const data = res.data
+
+        return dispatch({
+            type: "ALL_DETAIL_CARD_ORANGE",
+            payload: data
+
+        })
+    }
+};
+
+export const Avatars = (payload) => {
+    return async(dispatch) => {
+        const res = await axios.post(`http://localhost:8000/upload`, payload );
+        const data = res.data
+
+        return dispatch({
+            type: "AVATAR_UPLOAD",
+            payload: data
+
+        })
+    }
 };
 
 
 
 
+
+
+ */

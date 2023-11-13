@@ -18,18 +18,28 @@ function Register() {
     test: "",
     test2: "",
     test3: "",
+    test4: "",
+
     certification: "",
     ctf2: "",
     ctf3: "",
+    ctf4: "",
+
     issuedBy: "",
     iBy2: "",
     iBy3: "",
+    iBy4: "",
+
     verifiedBy: "",
     vrf2: "",
     vrf3: "",
+    vrf4: "",
+
     issuedOn: "",
     iuOn2: "",
     iuOn3: "",
+    iuOn4: "",
+
   });
 
   const handleSubmit = (e) => {
@@ -48,18 +58,28 @@ function Register() {
       test: "",
       test2: "",
       test3: "",
+      test4: "",
+
       certification: "",
       ctf2: "",
       ctf3: "",
+      ctf4: "",
+
       issuedBy: "",
       iBy2: "",
       iBy3: "",
+      iBy4: "",
+
       verifiedBy: "",
       vrf2: "",
       vrf3: "",
+      vrf4: "",
+
       issuedOn: "",
       iuOn2: "",
       iuOn3: "",
+      iuOn4: "",
+
     });
   };
 
@@ -67,6 +87,8 @@ function Register() {
     e.preventDefault();
     setEmploye((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
+  
+
 
   return (
     <div>
@@ -132,20 +154,20 @@ function Register() {
             <div>
               <p>Issued:</p>
               <input
-                onChange={handleChange}
-                value={employe.issued}
-                type="date"
-                placeholder="issued"
-                name="issued"
-                autoComplete="off"
-              />
+        onChange={handleChange}
+        value={employe.issued}
+        type="text" // Usa un input de tipo texto para mostrar la fecha formateada
+        placeholder="issued"
+        name="issued"
+        autoComplete="off"
+      />
             </div>
             <div>
               <p>Expires:</p>
               <input
                 onChange={handleChange}
                 value={employe.expires}
-                type="date"
+                type="text"
                 placeholder="expires"
                 name="expires"
                 autoComplete="off"
@@ -179,6 +201,15 @@ function Register() {
 
                 autoComplete="off"
               />
+                 <input
+                type="text"
+                name="test4"
+                value={employe.test4}
+                onChange={handleChange}
+                placeholder="test4"
+
+                autoComplete="off"
+              />
             </div>
             <div>
               <p>Certification</p>
@@ -207,6 +238,15 @@ function Register() {
                 onChange={handleChange}
                 autoComplete="off"
                 placeholder="certification3"
+
+              />
+                    <input
+                type="text"
+                name="ctf4"
+                value={employe.ctf4}
+                onChange={handleChange}
+                autoComplete="off"
+                placeholder="certification4"
 
               />
             </div>
@@ -238,6 +278,15 @@ function Register() {
                 placeholder="verifiedBy3"
 
               />
+                   <input
+                type="text"
+                name="iBy4"
+                value={employe.iBy4}
+                onChange={handleChange}
+                autoComplete="off"
+                placeholder="verifiedBy4"
+
+              />
             </div>
             <div>
               <p>Issued By: </p>
@@ -267,12 +316,21 @@ function Register() {
                 placeholder="issuedBy3"
 
               />
+                    <input
+                type="text"
+                name="vrf4"
+                value={employe.vrf4}
+                onChange={handleChange}
+                autoComplete="off"
+                placeholder="issuedBy4"
+
+              />
             </div>
             <div>
               <p>Issued On:</p>
               <input
                 onChange={handleChange}
-                type="date"
+                type="text"
                 placeholder="issuedOn"
                 name="issuedOn"
                 value={employe.issuedOn}
@@ -281,7 +339,7 @@ function Register() {
               />
               <input
                 onChange={handleChange}
-                type="date"
+                type="text"
                 placeholder="issuedOn"
                 name="iuOn2"
                 value={employe.iuOn2}
@@ -289,12 +347,21 @@ function Register() {
               />
               <input
                 onChange={handleChange}
-                type="date"
+                type="text"
                 placeholder="issuedOn3"
                 name="iuOn3"
                 value={employe.iuOn3}
                 autoComplete="off"
               />
+                    <input
+                onChange={handleChange}
+                type="text"
+                placeholder="issuedOn4"
+                name="iuOn4"
+                value={employe.iuOn4}
+                autoComplete="off"
+              />
+              
             </div>
             <Button className="button-Register" type="submit" variant="primary">
               Register

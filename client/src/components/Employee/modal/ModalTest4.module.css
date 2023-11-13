@@ -1,0 +1,60 @@
+.optionContainer4 {
+    display: flex;
+    margin-left: 53em;
+    margin-top: -18em;
+    gap: 20px;
+    position: fixed;
+  }
+  
+  .test4 {
+    width: 50px;
+    cursor: pointer;
+  }
+  
+  .testModal4 {
+    position: fixed;
+    margin-top: -18rem;
+    width: 750px;
+  }
+  
+  .btnClosed4 {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 28px;
+    height: 45px;
+  }
+  
+  .btnClosed4:hover {
+    color: white;
+  }
+  
+  .download4 {
+    margin-top: 8px;
+  }
+  
+  .download4 a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .download4 a:hover {
+    color: white;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .testModal4 {
+      position: fixed;
+      margin-top: -12rem;
+      width: 372px;
+    }
+  
+    .optionContainer4 {
+      display: flex;
+      margin-left: 130px;
+      margin-top: -360px;
+      position: fixed;
+    }
+  }
+  

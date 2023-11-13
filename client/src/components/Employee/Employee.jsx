@@ -20,7 +20,7 @@ export default function Employee() {
   const dispatch = useDispatch();
  
   const employee = useSelector((state) => state.DetailsEmployee);
-
+console.log(employee);
   useEffect(() => {
     dispatch(employeeDetail(employeCard));
   }, [dispatch, employeCard]);
@@ -121,6 +121,23 @@ export default function Employee() {
             <td>{employee.iuOn3}</td>
             <td>-</td>
           </tr>
+          {employee.test4 && (
+
+            <tr className="bg">
+            <td>     
+                  <ModalTest3 />
+                 
+            </td>
+            <td className="activate_osha">
+              <strong className="activate">  {t("employee.Activate")}</strong>|{" "}
+              {employee.ctf4}
+            </td>
+            <td classname="osha">{employee.iBy4}</td>
+            <td>{employee.vrf4}</td>
+            <td>{employee.iuOn4}</td>
+            <td>-</td>
+          </tr>
+            )}
         </tbody>
       </Table>
       <div className="return_home">
