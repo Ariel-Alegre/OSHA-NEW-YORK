@@ -11,6 +11,8 @@ import React, { useState } from "react";
 import ModalTest from './modal/ModalTest';
 import ModalTest2 from './modal/ModalTest2'
 import ModalTest3 from './modal/ModalTest3'
+import ModalTest4 from './modal/ModalTest4'
+
 
 
 export default function Employee() {
@@ -125,7 +127,7 @@ console.log(employee);
 
             <tr className="bg">
             <td>     
-                  <ModalTest3 />
+                  <ModalTest4 />
                  
             </td>
             <td className="activate_osha">

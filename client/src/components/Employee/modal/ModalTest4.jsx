@@ -1,7 +1,7 @@
 import Modal from "react-bootstrap/Modal";
 import React from "react";
 import { useSelector } from "react-redux";
-import style from "./ModalTest3.module.css";
+import style from "./ModalTest4.module.css";
 import Share from "../Share/Share3";
 import { FaArrowDown } from "react-icons/fa";
 
@@ -40,7 +40,7 @@ function MyVerticallyCenteredModal(props) {
   );
 }
 
-function ModalTest3() {
+function ModalTest4() {
   const [modalShow, setModalShow] = React.useState(false);
   const employeTest4 = useSelector((state) => state.DetailsEmployee);
 
@@ -63,4 +63,4 @@ function ModalTest3() {
   );
 }
 
-export default ModalTest3;
+export default ModalTest4;
