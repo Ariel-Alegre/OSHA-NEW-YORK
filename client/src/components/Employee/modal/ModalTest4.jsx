@@ -14,7 +14,6 @@ function MyVerticallyCenteredModal(props) {
       aria-labelledby="contained-modal-title-vcenter"
       centered
     >
-      
       <img
         src={employeTestModal4.test4}
         className={style.testModal4}
