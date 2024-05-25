@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 
-export const newEmployee = (payload) => {
+/* export const newEmployee = (payload) => {
     return async(dispatch) => {
         const res = await axios.post(`https://osha-new-york-production.up.railway.app/employee`, payload);
         const data = res.data
@@ -99,6 +99,7 @@ export const Avatars = (payload) => {
         })
     }
 }; 
+ */
 
 
 
@@ -108,8 +109,7 @@ export const Avatars = (payload) => {
 
 
 
-
-/* export const newEmployee = (payload) => {
+ export const newEmployee = (payload) => {
     return async(dispatch) => {
         const res = await axios.post(`http://localhost:8000/employee`, payload);
         const data = res.data
@@ -212,4 +212,4 @@ export const Avatars = (payload) => {
 
 
 
- */
+ 
