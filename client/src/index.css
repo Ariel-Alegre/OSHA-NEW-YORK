@@ -9,9 +9,10 @@ body {
 
  background: linear-gradient(135deg,rgba(6, 146, 227, 0.74) 0%,rgba(155, 81, 224, 0.543) 100%),
    url("./image/contruccion.jpg");  
-   background-position: center center;
+   background-position: center;
    background-repeat: no-repeat;
    background-size: cover; 
+  
    
 
 

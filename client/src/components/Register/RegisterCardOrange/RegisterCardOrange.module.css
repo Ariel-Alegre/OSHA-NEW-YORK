@@ -1,28 +1,21 @@
 .Register_Container {
-  background: white;
-  height: 30em;
+  margin-top: 5em;
 }
 
 .Register_Container form {
   display: grid;
-  margin-left: 40px;
-
-
 }
 
 .Input_Container {
   box-shadow: 0px 0px 4px;
-  width: 870px;
   display: grid;
-  margin-top: 40px;
+  width: 100%;
   grid-template-columns: repeat(auto-fit, 400px);
 
-  margin-left: 100px;
   justify-content: center;
 }
 
 .Input_Container input {
-  margin-left: 100px;
   width: 300px;
   margin-bottom: 20px;
 }
@@ -30,9 +23,7 @@
 .Input_Container p {
   text-align: center;
   margin-top: 10px;
-  margin-left: 100px;
-  }
-
+}
 
 .bg_button {
   background-color: rgb(185, 101, 6);
@@ -40,9 +31,7 @@
   max-width: 300px;
   max-height: 40px;
   margin-top: 40px;
-  margin-left: 100px;
   margin-bottom: 50px;
-  
 }
 
 .bg_button:hover {
@@ -50,18 +39,13 @@
   background-color: rgb(185, 101, 6);
 }
 
-@media screen and (max-width: 800px) {
- 
-  .Register_Container {
-    margin-top: -105em;
-  }
-
-  .Input_Container{
-   display: grid;
-    margin-left: 80px;
-    width: 10px;
+@media screen and (max-width: 768px) {
+  .Input_Container {
     box-shadow: none;
-    margin-top: -150px ;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, 400px);
+
     justify-content: center;
-   }
- }
+  }
+}

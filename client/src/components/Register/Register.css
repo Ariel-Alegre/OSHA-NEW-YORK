@@ -1,65 +1,71 @@
 .Register-Container {
-  background: white;
-  height: 75em;
+  padding: 5em;
 }
 
-.Register-Container form {
-  display: grid;
-  margin-left: 40px;
-}
 
 .Input-Container {
   box-shadow: 0px 0px 4px;
-  width: 870px;
   display: grid;
   margin-top: 40px;
-  grid-template-columns: repeat(auto-fit, 400px);
-
-  margin-left: 100px;
-  justify-content: center;
+  padding: 1em;
+  width: 50%;
 }
 
 .Input-Container input {
-    margin-left: 100px;
-    width: 300px;
-    margin-bottom: 20px;
+  width: 300px;
+  margin-bottom: 20px;
 }
 
 .Input-Container p {
-text-align: center;
-margin-top: 10px;
-margin-left: 100px;
+  margin-top: 10px;
 }
 
+.Input-Container2 {
+  display: grid;
+  margin-top: 40px;
+  padding: 1em;
+}
 .button-Register {
-    width: 300px;
-     height: 40px;
-    margin-left: 5em;
-    margin-top: 45px;
+  width: 300px;
+  height: 40px;
+  margin-top: 45px;
 }
 
 .button-Register:hover {
-    opacity: 0.7;
+  opacity: 0.7;
+}
+
+.select-file {
+}
+
+.image-preview img {
+  width: 130px;
+}
+
+.file-input {
+  display: none; /* Oculta el input de tipo file */
+}
+
+.file-label {
+  /* Estilos opcionales para mostrar un texto personalizado en lugar del nombre del archivo */
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para mostrar un cursor diferente cuando se pasa sobre el texto personalizado */
+.file-label:hover {
+  background-color: #f0f0f0;
 }
 
 
+@media (max-width:768px) {
 
-@media screen and (max-width: 800px) {
-  .Register-Container {
-    background: white;
-    height: 180em;
-    margin-bottom: 70em;
-  }
-  
- 
-  .Input-Container{
-  display: grid;
-   margin-left: 80px;
-   width: 10px;
-   box-shadow: none;
+  .Input-Container {
+    display: grid;
+    justify-content: center;
+    box-shadow: none;
+    
   }
 }
-
-
-
-

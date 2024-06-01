@@ -3,7 +3,8 @@ const initialState = {
     AllEmployees: [],
     AllTargetOrange: [],
     DetailsEmployee: [],
-    DetailCardOrange: []
+    DetailCardOrange: [],
+    employees: [],
 }
 export const rootReducer = (state = initialState, action) => {
     switch (action.type) {
@@ -28,26 +29,37 @@ export const rootReducer = (state = initialState, action) => {
                 ...state,
             }
 
-            case "DETAIL_CARD_ORANGE": 
+        case "DETAIL_CARD_ORANGE":
 
             return {
                 ...state,
                 DetailCardOrange: action.payload
             }
 
-            case "ALL_DETAIL_CARD_ORANGE":
+        case "ALL_DETAIL_CARD_ORANGE":
             return {
                 ...state,
                 AllTargetOrange: action.payload
             }
 
-            case "AVATAR_UPLOAD": 
+        case "AVATAR_UPLOAD":
             return {
                 ...state,
             }
+            case "UPDATE_EMPLOYEE":
+                const updatedEmployee = action.payload;
+                const updatedEmployees = state.employees.map(employee => {
+                    if (employee.id === updatedEmployee.id) {
+                        return updatedEmployee;
+                    }
+                    return employee;
+                });
+                return {
+                    ...state,
+                    employees: updatedEmployees
+                };
 
 
-
-        default: return {...state}
+        default: return { ...state }
     }
 }
